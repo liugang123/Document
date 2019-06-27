@@ -81,7 +81,6 @@ vin | private | String| vin码 | Car
 seat | private | int  | 座位数 | Car 
 price | private | Double | 价格 | Car 
 
-
 FieldName | FieldAccess | FieldType |FieldDesc |ClassName | FieldIndex | FieldId
 ---|--- |--- |---|---| --- |---
 vin | private | String| vin码 | Car | package/car.vin S |  1
@@ -89,20 +88,20 @@ seat | private | int  | 座位数 | Car | package/car.seat i | 2
 price | private | Double | 价格 | Car | package/car.price D |3
 
  FieldIndex | FieldId
- ---|--- |--- 
+ ---|--- 
  package/car.vin S |  #1
  package/car.seat i | #2
  package/car.price D |#3
  
  accessFlag | nameIndex | nameTypeIndex
- ---|---|--- |--- 
+ ---|---|--- 
  private | vin   |  #1
  private | seat  |  #2
  private | price |  #3
  
  
   accessFlag | nameIndex | nameTypeIndex
- ---|---|--- |--- 
+ ---|---|---
  2 | #11   |  #1
  2 | #12  |  #2
  2 | #13 |  #3
@@ -111,14 +110,14 @@ price | private | Double | 价格 | Car | package/car.price D |3
  **3.方法信息**
 
 MethodName | MethodAccess| MethodDesc | MethodParams| MethodReturn|ClassName 
----|---|---|---|---|---| ---
+---|---|---|---|---|---
 Car | public | 构造函数 | string vin | null | Car
-toString  | public |  | | String  | Car 
+toString  | public | null  |null | String  | Car 
 
 MethodName | MethodAccess| MethodDesc | MethodParams| MethodReturn|ClassName | MethodIndex | MethodId
 ---|---|---|---|---|---| ---|---
-Car | public | 构造函数 | vin S,...,... | null | Car | package/car.car(vin S)  | 4
-toString  | public |  | | String  | Car | package/car.toString() S |5
+Car | public | 构造函数 | vin S | null | Car | package/car.car(vin S)  | 4
+toString  | public | null | null | String  | Car | package/car.toString() S |5
 
 MethodIndex | MethodId
  ---|---
@@ -126,12 +125,12 @@ MethodIndex | MethodId
  package/car.toString() S |#5
  
  accessFlag | nameIndex | nameTypeIndex
- ---|---|--- |--- 
+ ---|---|--- 
  public | car   |  #4
  public | toString  |  #5
 
  accessFlag | nameIndex | nameTypeIndex
- ---|---|--- |--- 
+ ---|---|--- 
  1 | #44   |  #4
  1 | #55  |  #5
  
