@@ -10,6 +10,7 @@ Spring容器类型：
 
 - #### 应用上下文
 ```
+Spring应用上下文：全权负责对象的创建和组装，Spring提供的多种应用上下文主要区别在于如何加载配置
 * AnnotationConfigApplicationContext:从一个或多个基于java的配置类中加载Spring应用上下文
 * AnnotationConfigWebApplicationContext：从一个或多个基于java的配置类中加载Spring Web应用的上下文
 * ClassPathXmlApplicationContext：从类路径下的一个或多个XML配置文件中加载上下文定义，把应用上下文的定义文件作为类文件
@@ -25,8 +26,6 @@ DI(DependencyInjection)能够让相互协作的软件组织保持松散耦合
 * 在XML文件中进行显示配置
 * 在Java中进行显式配置
 * 隐式的bean发现机制和自动装配
-3.Spring应用上下文：全权负责对象的创建和组装，Spring提供的多种应用上下文主要区别在于如何加载配置
-classPathXmlApplicationContent：加载xml文件配置的bean
 ```
 
 - #### 自动装配bean
