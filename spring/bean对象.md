@@ -3,13 +3,15 @@
 Spring容器(container)：负责创建对象，装配对象，配置对象，管理对象的这个生命周期
 Spring容器使用DI管理构造应用的组件，它会创建相互协作的组件之间的依赖关系
 Spring容器负责把需要相互协作的对象引用赋予各个对象
-Spring容器类型：
+Spring容器实现类型：
 * bean工厂：最简单的容器，提供基本的DI支持
 * 应用上下文：基于BeanFactory构建，并提供应用框架级别的服务
+* bean工厂对于多数应用太低级，应用上下文相对bean工厂更受欢迎
 ```
 
 - #### 应用上下文
 ```
+Spring应用上下文：全权负责对象的创建和组装，Spring提供的多种应用上下文主要区别在于如何加载配置
 * AnnotationConfigApplicationContext:从一个或多个基于java的配置类中加载Spring应用上下文
 * AnnotationConfigWebApplicationContext：从一个或多个基于java的配置类中加载Spring Web应用的上下文
 * ClassPathXmlApplicationContext：从类路径下的一个或多个XML配置文件中加载上下文定义，把应用上下文的定义文件作为类文件
@@ -25,8 +27,6 @@ DI(DependencyInjection)能够让相互协作的软件组织保持松散耦合
 * 在XML文件中进行显示配置
 * 在Java中进行显式配置
 * 隐式的bean发现机制和自动装配
-3.Spring应用上下文：全权负责对象的创建和组装，Spring提供的多种应用上下文主要区别在于如何加载配置
-classPathXmlApplicationContent：加载xml文件配置的bean
 ```
 
 - #### 自动装配bean
