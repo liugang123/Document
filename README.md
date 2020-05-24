@@ -11,13 +11,16 @@
 
 #### java框架
 - Spring实战（第4版）
+- SpringBoot实战(第4版)
 - Maven实战
 - iBATIS框架源码剖析+任钢著
 
-todo：
-dubbo、spring cloud、spring boot
+#### 微服务
+- Spring Cloud微服务实战
+- 深入理解Apache Dubbo与实战
 
 #### 消息队列
+- 深入RabbitMQ
 
 #### 数据库
 - 数据库系统概念_第六版
