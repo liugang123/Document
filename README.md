@@ -3,6 +3,7 @@
 #### java基础
 - Java编程思想(第4版)
 - 深入理解Java虚拟机_JVM高级特性与最佳实践 第2版
+- Effective Java 第3版
 
 #### java web
 - Java Web整合开发王者归来
