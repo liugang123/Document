@@ -40,6 +40,7 @@
 
 #### 大数据
 - 基于Apache Flink的流处理
+- Elasticsearch 实战
 
 #### 计算机基础
 - 鸟哥的Linux私房菜
