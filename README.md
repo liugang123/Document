@@ -19,6 +19,7 @@
 #### 微服务
 - Spring Cloud微服务实战
 - 深入理解Apache Dubbo与实战
+- 凤凰架构
 
 #### 消息队列
 - 深入RabbitMQ
